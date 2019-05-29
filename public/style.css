@@ -1,0 +1,54 @@
+/* .app-container {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 50% 50%;
+  height: 475px;
+  width: 100%;
+} */
+
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+#photoDisplay {
+  width: 100%; 
+}
+
+#listing-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-right: 24px;
+  padding-left:24px;
+  display: grid;
+  grid-template-columns: 59% 41%;
+  grid-template-rows: 50% 50%;
+}
+
+#listingInfo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#booking-portal-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end:3;
+}
+
+#bookingPortal {
+  position: sticky;
+  top: 0;
+}
+
+#reviews {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
