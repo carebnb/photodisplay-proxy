@@ -1,0 +1,6 @@
+# Files to ignore
+.DS_Store
+booking-portal-module/
+listinginfo-module/
+Review-module/
+node_modules

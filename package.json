@@ -1,0 +1,26 @@
+{
+  "name": "photodisplay-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for a listing page for Airbnb",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon server/mainServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carebnb/photodisplay-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carebnb/photodisplay-proxy/issues"
+  },
+  "homepage": "https://github.com/carebnb/photodisplay-proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
