@@ -31,6 +31,16 @@ app.get('/booking', (req, res) => {
   });
 });
 
+app.post('/booking', (req, res) => {
+  axios.post('http://localhost:3003/booking', req.body)
+  .then((result) => {
+    res.status(201).send(result.data);
+  })
+  .catch((err) => {
+    res.status(500).send(err);
+  })
+})
+
 app.get('/messages', (req, res) => {
   const listingId = req.query.listingid;
   axios.get(`http://localhost:3001/messages/?listingid=${listingId}`)
