@@ -74,6 +74,74 @@ body {
   vertical-align: middle;
 }
 
+#header-list-container {
+  display: table-cell;
+  vertical-align: middle;
+  height: 64px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #484848;
+}
+
+.header-list-item {
+  display: table-cell;
+}
+
+.list-item-button {
+  -webkit-appearance: none;
+  color: inherit;
+  display: inline-block;
+  height: 64px;
+  line-height: 64px;
+  position: relative;
+  white-space: nowrap;
+  background: transparent;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  margin: 0px;
+  padding: 0px 8px;
+  transition: color 0.25s ease 0s;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.list-item-text {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  padding: 8px;
+  border-bottom: 2px solid transparent;
+}
+
+.list-item-text:hover {
+  text-decoration: underline;
+}
+
+#account-img-container {
+  background-color: rgb(242, 242, 242);
+  box-shadow: rgb(235, 235, 235) 0px 0px 0px 2px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#account-img {
+  vertical-align: top;
+  width: 28px;
+  height: 28px;
+}
+
 #photoDisplay {
   width: 100%; 
 }
