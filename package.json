@@ -4,8 +4,9 @@
   "description": "Proxy server for a listing page for Airbnb",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -d --watch",
-    "start": "nodemon server/mainServer.js"
+    "build": "webpack -p",
+    "start-docker": "node docker/app/server/mainServer.js",
+    "start": "node server/mainServer.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "axios": "^0.18.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.0"
